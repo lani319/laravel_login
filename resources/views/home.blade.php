@@ -15,6 +15,7 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+                    <a href="{{Route('home.show')}}">go to show page</a>
                     <example-component></example-component>
                 </div>
             </div>
